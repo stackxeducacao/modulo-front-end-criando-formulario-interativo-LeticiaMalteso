@@ -1,0 +1,44 @@
+body { /* Estilizacao do corpo do html*/
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0b0303;
+    position: static;
+}
+
+.form-container { /* Estilizacao da Planilha central do html*/
+    background-color: #c2f2f6;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+    
+}
+
+.formulario{ /* Centralizacao do titulo*/
+    text-align: center;
+    color: black
+}
+
+.label{ /* Estilizacao do label*/
+    display: block;
+    margin: 10px  5px;
+    color: #555;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="checkbox"] {
+    margin-right: 5px;
+}
